@@ -42,47 +42,20 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+> **Market Insights:** The LLM and AI Agent Observability market is estimated at **$1.7B–$3.2B (2025/2026)** and projected to reach **$8.6B–$24.8B by 2030–2034**. The sector is currently **highly fragmented**—driven by rapid innovation, specialized agent-tracing frameworks (e.g. LangSmith, Arize AX, AgentOps), and OpenTelemetry standardizations, rather than a single winner-take-all enterprise vendor.
 
-
-- **[AgentOps](https://www.agentops.ai/)**  
-
-  Analytics and observability purpose-built for AI agents—session replay, tool-call tracking, cost attribution, and performance dashboards.
-
-
-
-- **[Langfuse (Cloud)](https://langfuse.com/)**  
-
-  LLM and agent engineering platform with rich analytics over traces, sessions, prompts, and evals (open-source core available).
-
-
-
-- **[LangSmith](https://www.langchain.com/langsmith)**  
-
-  Observability and analytics tightly integrated with LangChain/LangGraph—trace inspection, datasets, and experiment comparison.
-
-
-
-- **[Arize Phoenix / Arize AX](https://arize.com/)**  
-
-  Open Phoenix plus enterprise Arize for tracing, evaluation, and analytics across agents and LLM applications.
-
-
-
-- **[Helicone, OpenLIT, Keywords AI](https://www.helicone.ai/)**  
-
-  Proxy and instrumentation platforms that deliver cost, latency, and usage analytics for LLM and agent traffic with minimal integration effort.
-
-
-
-- **[Braintrust, HoneyHive, Humanloop](https://www.braintrust.dev/)**  
-
-  Evaluation- and feedback-centric platforms that turn production agent runs into quality metrics, experiments, and continuous improvement loops.
-
-
-
-- **[Other commercial agent analytics platforms](https://www.agentops.ai/)**  
-
-  Additional solutions for agent ROI dashboards, multi-agent comparison, and production intelligence.
+| Platform | Company Size (Valuation / Funding) | Starting Paid Tier | Free Tier Limit | Key Highlights & Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[LangSmith](https://www.langchain.com/langsmith)** | **$1.25B Valuation** ($160M funding) | **$39 / seat / mo** (Plus plan; $2.50/1k overage traces) | **5,000 base traces / mo** (1 seat, 14-day retention) | Observability, evaluation, and prompt testing platform by LangChain; deep integration with LangGraph. |
+| **[Arize Phoenix / Arize AX](https://arize.com/)** | **$915M Acquisition** (by Dynatrace in 2026; $131M funding) | **$50 / mo** (AX Pro tier; $0.0005/span overage) | **25,000 trace spans / mo** (AX Free plan, unlimited evals) | Enterprise AI observability and open-source Phoenix framework for agent tracing, evaluations, and troubleshooting. |
+| **[Braintrust](https://www.braintrust.dev/)** | **$800M Valuation** ($121.1M funding) | **$249 / mo** (Pro tier; $1.50/1k scores overage) | **1 GB processed data / mo** (14-day retention, Starter tier) | Evaluation- and feedback-centric platform for AI agents with automated LLM scoring and dataset management. |
+| **[Humanloop](https://humanloop.com/)** | **Acquired by Anthropic** ($7.91M prior funding) | **Acquired by Anthropic** (Sunset standalone SaaS Sept 2025; integrated into Anthropic) | **14-day free trial** (2 seats, 50 evals, 10,000 logs/mo) | Prompt engineering, evaluation, and agent monitoring platform acquired by Anthropic in August 2025. |
+| **[HoneyHive](https://www.honeyhive.ai/)** | **$7.4M Funding** (Seed led by Insight Partners) | **$99 / mo** (Team plan; usage-based overage) | **10,000 events / mo** (90-day retention, free developer tier) | Observability and evaluation platform purpose-built for multi-step AI agent sessions and tool-call workflows. |
+| **[Keywords AI (Respan)](https://www.keywordsai.co/)** | **$5.5M Funding** (Seed stage, YC backed) | **$20 / mo** (Starter tier minimum) | **$15 free credits** (~10,000–50,000 traces) | Unified AI engineering platform and LLM proxy delivering prompt management, tracing, and agent performance dashboards. |
+| **[Langfuse (Cloud)](https://langfuse.com/)** | **Acquired by ClickHouse** ($4.5M prior funding, ~$1.1M ARR) | **$29 / mo** (Core tier; 100k units/mo included) | **50,000 usage units / mo** (2 seats, 30-day retention) | Leading open-core LLM/agent analytics product with session replays, prompt management, and automated evaluation tools. |
+| **[AgentOps](https://www.agentops.ai/)** | **$2.6M Funding** (Pre-seed led by 645 Ventures) | **$40 / mo** (Pro plan) | **10,000 events / mo** (Developer free tier) | Agent analytics and session replay platform with step-by-step agent tracking and native SDKs (CrewAI, AutoGen). |
+| **[Helicone](https://www.helicone.ai/)** | **~$1M ARR** (Seed funded, YC W23) | **$79 / mo** (Pro plan) | **10,000 requests / mo** (1 GB storage, 7-day retention) | Open-source LLM & agent proxy providing instant cost, latency, and request caching/analytics with zero code change. |
+| **[OpenLIT](https://openlit.io/)** | **Open-Source** (Community project / Cloud in waitlist) | **Free (Self-Hosted)** (Open-source Apache 2.0; Cloud waitlist) | **Unlimited** (Self-hosted open-source core) | OpenTelemetry-native GenAI & agent instrumentation platform emitting standard metrics to Grafana, Jaeger, and ClickHouse. |
 
 
 
