@@ -1,48 +1,37 @@
-# Awesome-AI-Agent-Analytics
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome AI Agent Analytics Banner" width="100%" />
+</p>
 
-## Top AI Agent Analytics Ecosystem
+# 🤖 Awesome AI Agent Analytics & LLM Observability Ecosystem 📊
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Analytics/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Agent-Analytics?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Analytics/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Agent-Analytics?style=for-the-badge&logo=github&color=blue" alt="GitHub Forks"/></a><a href="https://github.com/ishandutta2007/Awesome-AI-Agent-Analytics/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-AI-Agent-Analytics?style=for-the-badge&color=green" alt="License"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 📌 Ecosystem Overview & SEO Index
 
-*Focused on Agent Performance Analytics, Session Replay, Cost Attribution, Success Metrics, Tool-Call Insights & Production Agent Intelligence*  
+Welcome to the definitive, curated index of **SaaS platforms** and **open-source GitHub projects** for **AI Agent Analytics**, **LLM Observability**, **Agent Session Replay**, **Token Cost Attribution**, and **Production Intelligence**.
 
-**Last updated: September 2026**
+As autonomous AI agents shift from single LLM prompt completions to multi-step reasoning, tool invocations, and multi-agent orchestration (e.g., CrewAI, AutoGen, LangGraph, OpenAI Agents SDK), traditional APM monitoring falls short. These specialized tools convert complex agent execution traces into actionable telemetry—enabling software engineers, platform architects, and AI product teams to optimize reliability, debugging latency, and return on investment (ROI).
 
+---
 
+## 📑 Table of Contents
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🧩 Composable Agent Analytics Stacks](#-composable-agent-analytics-stacks)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Agent Analytics**. These systems turn raw agent traces into actionable insights—success rates, cost per task, latency breakdowns, tool-use patterns, failure modes, and experiment comparisons—so teams can improve agent reliability and ROI.
+---
 
+## 🏢 SaaS/Hosted Platforms
 
-
-**Examples** include AgentOps, OpenLIT, Helicone, Langfuse, HoneyHive, Braintrust, Humanloop, LangSmith, Arize Phoenix, and Keywords AI (the category leaders).
-
-
-
-**Open-source emphasis**: Agent analytics builds on the strong open observability stack. **Langfuse**, **Arize Phoenix**, **OpenLLMetry**, **Helicone**, **Opik**, and related projects provide self-hosted analytics over agent runs. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-> **Market Insights:** The LLM and AI Agent Observability market is estimated at **$1.7B–$3.2B (2025/2026)** and projected to reach **$8.6B–$24.8B by 2030–2034**. The sector is currently **highly fragmented**—driven by rapid innovation, specialized agent-tracing frameworks (e.g. LangSmith, Arize AX, AgentOps), and OpenTelemetry standardizations, rather than a single winner-take-all enterprise vendor.
+> 💡 **Market Insights:** The LLM and AI Agent Observability market is estimated at **$1.7B–$3.2B (2025/2026)** and projected to reach **$8.6B–$24.8B by 2030–2034**. The sector is currently **highly fragmented**—driven by rapid innovation, specialized agent-tracing frameworks (e.g., LangSmith, Arize AX, AgentOps), and OpenTelemetry standardizations, rather than a single winner-take-all enterprise vendor.
 
 | Platform | Company Size (Valuation / Funding) | Starting Paid Tier | Free Tier Limit | Key Highlights & Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -57,124 +46,86 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[Helicone](https://www.helicone.ai/)** | **~$1M ARR** (Seed funded, YC W23) | **$79 / mo** (Pro plan) | **10,000 requests / mo** (1 GB storage, 7-day retention) | Open-source LLM & agent proxy providing instant cost, latency, and request caching/analytics with zero code change. |
 | **[OpenLIT](https://openlit.io/)** | **Open-Source** (Community project / Cloud in waitlist) | **Free (Self-Hosted)** (Open-source Apache 2.0; Cloud waitlist) | **Unlimited** (Self-hosted open-source core) | OpenTelemetry-native GenAI & agent instrumentation platform emitting standard metrics to Grafana, Jaeger, and ClickHouse. |
 
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Langfuse](https://github.com/langfuse/langfuse)**  
-
-  Leading open-source (MIT) LLM/agent platform—traces, sessions, dashboards, prompt analytics, and evals; the strongest self-hosted option for agent analytics.
-
-
-
-- **[Arize Phoenix](https://github.com/Arize-ai/phoenix)**  
-
-  Open-source tracing, evaluation, and analytics for LLM and agent workloads—notebook-friendly and production-capable.
-
-
-
-- **[OpenLLMetry (Traceloop)](https://github.com/traceloop/openllmetry)**  
-
-  OpenTelemetry instrumentation for GenAI and agents—export standard spans to any analytics backend (Grafana, Jaeger, Datadog, etc.).
-
-
-
-- **[Helicone](https://github.com/Helicone/helicone)**  
-
-  Open-source proxy logging with built-in cost, latency, and usage analytics for LLM/agent requests.
-
-
-
-- **[Opik (Comet)](https://github.com/comet-ml/opik)**  
-
-  Open evaluation and observability toolkit for tracing agent runs and comparing experiments.
-
-
-
-- **[OpenLIT](https://github.com/openlit/openlit)**  
-
-  Open instrumentation and observability layer for LLM and agent stacks, emitting metrics and traces for analytics pipelines.
-
-
-
-- **[Evidently](https://github.com/evidentlyai/evidently)**  
-
-  Open monitoring framework adaptable to agent success rates, step metrics, and quality scores over time.
-
-
-
-- **[Custom agent analytics notebooks & Grafana dashboards](https://github.com/search?q=agent+analytics+OR+LLM+cost+dashboard+open+source)**  
-
-  Community dashboards and notebooks that aggregate OpenTelemetry or Langfuse data into cost, latency, and success views.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Full analytics product**: Langfuse for end-to-end agent session analytics and evals.
-
-- **OTel pipeline**: OpenLLMetry → Prometheus/Grafana or ClickHouse for custom agent KPIs.
-
-- **Proxy analytics**: Helicone for quick cost and latency visibility.
-
-- **Experiment analytics**: Opik and Phoenix for offline/online eval comparison.
-
-- **Composable stacks**: Agent framework + Langfuse/OpenLLMetry + BI or Grafana for executive-ready agent ROI views.
-
-- Commercial platforms still lead in polished agent replay, multi-team workspaces, and managed insight reports.
-
-
-
-**Frameworks for building custom systems**:  
-
-**Langfuse** and **Phoenix** are the primary open agent analytics products.  
-
-**OpenLLMetry** and **Helicone** feed traces into existing analytics stacks.  
-
-Commercial platforms (AgentOps, Braintrust, HoneyHive, Humanloop, Keywords AI, LangSmith, etc.) provide specialized agent intelligence and evaluation workflows.  
-
-Many teams self-host Langfuse for core analytics and optionally layer commercial tools for advanced evals or enterprise reporting. Fully open stacks are production-viable with self-hosted storage and dashboards.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Agent analytics data often includes prompts, tool outputs, and user content. Treat it as sensitive: apply retention policies, access controls, and redaction for secrets/PII.
-
-- Open-source tools offer transparency and data residency but require you to operate infrastructure. Commercial platforms shift operational burden to the vendor. Align analytics practices with your security and compliance requirements.
-
-
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is the collection of premier self-hosted and open-source frameworks for agent telemetry, evaluations, and LLM observability. These repositories allow engineering teams to maintain total data sovereignty and privacy.
+
+*(Sorted descending by GitHub Star count)*
+
+| Repository & Link | Stars Badge | Primary Capabilities & Focus Area |
+| :--- | :--- | :--- |
+| **[Langfuse](https://github.com/langfuse/langfuse)** | [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social)](https://github.com/langfuse/langfuse/stargazers) | **End-to-End Agent Platform:** MIT-licensed core offering tracing, session replays, prompt analytics, and LLM evaluations. The gold standard for self-hosted agent observability. |
+| **[Promptfoo](https://github.com/promptfoo/promptfoo)** | [![GitHub stars](https://img.shields.io/github/stars/promptfoo/promptfoo?style=social)](https://github.com/promptfoo/promptfoo/stargazers) | **Red-Teaming & Evals:** CLI & library for security pentesting, vulnerability scanning, hallucination detection, and prompt quality regression tests across agents. |
+| **[Opik](https://github.com/comet-ml/opik)** | [![GitHub stars](https://img.shields.io/github/stars/comet-ml/opik?style=social)](https://github.com/comet-ml/opik/stargazers) | **Evaluation & Tracing:** Open toolkit by Comet for tracing agent runs, evaluating multi-step chains, and tracking experiment performance side-by-side. |
+| **[DeepEval](https://github.com/confident-ai/deepeval)** | [![GitHub stars](https://img.shields.io/github/stars/confident-ai/deepeval?style=social)](https://github.com/confident-ai/deepeval/stargazers) | **Unit Testing for Agents:** Pytest-like evaluation framework for LLMs and autonomous agents with support for G-Eval, answer relevancy, and tool-use accuracy. |
+| **[Ragas](https://github.com/vibrantlabsai/ragas)** | [![GitHub stars](https://img.shields.io/github/stars/vibrantlabsai/ragas?style=social)](https://github.com/vibrantlabsai/ragas/stargazers) | **RAG & Agent Evals:** Specialized framework for evaluating Retrieval-Augmented Generation pipelines, context precision, and multi-turn agent reasoning. |
+| **[Arize Phoenix](https://github.com/Arize-ai/phoenix)** | [![GitHub stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=social)](https://github.com/Arize-ai/phoenix/stargazers) | **Tracing & Visualization:** Open-source, OpenInference-native observability notebook workspace and server for LLM applications and agent trajectories. |
+| **[Promptflow](https://github.com/microsoft/promptflow)** | [![GitHub stars](https://img.shields.io/github/stars/microsoft/promptflow?style=social)](https://github.com/microsoft/promptflow/stargazers) | **Microsoft AI Orchestration:** Complete suite of tools to prototype, test, evaluate, and monitor production quality of LLM-based applications and agents. |
+| **[Evidently](https://github.com/evidentlyai/evidently)** | [![GitHub stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social)](https://github.com/evidentlyai/evidently/stargazers) | **ML & GenAI Monitoring:** Adaptable monitoring framework for tracking quality scores, step completion metrics, token costs, and data drift over time. |
+| **[OpenLLMetry](https://github.com/traceloop/openllmetry)** | [![GitHub stars](https://img.shields.io/github/stars/traceloop/openllmetry?style=social)](https://github.com/traceloop/openllmetry/stargazers) | **OpenTelemetry Telemetry:** Standardized OTel instrumentation for GenAI frameworks (LangChain, LlamaIndex, OpenAI). Exports spans to Grafana, Datadog, or ClickHouse. |
+| **[Helicone](https://github.com/Helicone/helicone)** | [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social)](https://github.com/Helicone/helicone/stargazers) | **Proxy-Based Analytics:** Lightweight proxy server providing zero-code cost attribution, latency tracking, custom headers, and request caching. |
+| **[AgentOps SDK](https://github.com/AgentOps-AI/agentops)** | [![GitHub stars](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=social)](https://github.com/AgentOps-AI/agentops/stargazers) | **Agent Analytics SDK:** Purpose-built Python/TypeScript library for recording step-by-step agent sessions, cost tracking, and CrewAI / AutoGen / Agno integrations. |
+| **[TruLens](https://github.com/truera/trulens)** | [![GitHub stars](https://img.shields.io/github/stars/truera/trulens?style=social)](https://github.com/truera/trulens/stargazers) | **Feedback Triad Evals:** Open-source instrumentation library focused on groundedness, context relevance, and feedback metrics for agents and RAG. |
+| **[OpenLIT](https://github.com/openlit/openlit)** | [![GitHub stars](https://img.shields.io/github/stars/openlit/openlit?style=social)](https://github.com/openlit/openlit/stargazers) | **eBPF & OTel Collector:** Open-source observability stack for monitoring LLM calls, vector database queries (Pinecone, Qdrant), and GPU hardware utilization. |
 
 ---
 
+## 🧩 Composable Agent Analytics Stacks
 
+Choosing the right architecture depends on your data privacy, hosting preferences, and analytics needs:
 
-**Made for agent builders, AI platform teams, and operators measuring agent performance and cost.**  
+- **🚀 Full End-to-End Product:** Deploy **Langfuse** or **Arize Phoenix** for instant session replays, prompt management, and team evaluation dashboards.
+- **⚡ OpenTelemetry Pipeline:** Combine **OpenLLMetry** or **OpenLIT** with existing enterprise backends (**Prometheus / Grafana**, **ClickHouse**, or **Datadog**).
+- **🛡️ Security & Pentesting:** Integrate **Promptfoo** or **DeepEval** into your CI/CD workflow for automated agent vulnerability scanning.
+- **💰 Zero-Code Proxy Tracking:** Insert **Helicone** upstream to gain token cost, caching, and latency insights without altering application code.
 
-Let's expand open AI agent analytics while recognizing the specialized insights and scale that leading commercial platforms deliver.
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Help us keep this ecosystem complete and up-to-date:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Update** platform entries in `README.md` maintaining the table format.
+3. 🔎 **Ensure** accurate links, factual descriptions, starting prices, and free tier limits.
+4. 🚀 **Submit a Pull Request** with a brief summary of additions.
+
+Refer to the curated catalog list at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for related topic collections.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting **Awesome AI Agent Analytics**! If this repository helps you monitor, debug, or scale your production AI agents, consider supporting the project:
+
+- ⭐ **Star this repository** on GitHub to increase visibility for the developer community!
+- 🍴 **Fork & Share** with your fellow AI platform engineers and software architects.
+- ☕ **Sponsor the Maintainer** on GitHub Sponsors to support continuous ecosystem tracking:
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Agent-Analytics&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Agent-Analytics&type=date&legend=top-left)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated list** provided for educational and decision-making purposes.
+- Agent telemetry often includes user prompts, API key credentials, and tool-call outputs. Always enforce proper encryption, retention policies, and secret redaction.
+- Open-source platforms provide full data ownership but require operational hosting; commercial platforms offload operational overhead.
+
+---
+
+<p align="center">
+  <b>Built for AI agent engineers, platform architects, and developers shaping the future of autonomous systems.</b>
+</p>
